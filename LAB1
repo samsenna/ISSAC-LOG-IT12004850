@@ -1,0 +1,73 @@
+Information Systems Security and Audit
+S.D.W Senanayake
+IT12004850
+Log Reports – Labs
+Date- 	3/7/2015
+Task- 	Explore Google Hacking Database in Exploit-db.com, Try out 10 Google search (Key words) words and try them.
+
+•	Search from various online devices
+o	Google Search : inurl:/control/userimage.html
+o	Try to use other keywords and search for devices such as
+	inurl:/edu/control/userimage.html	(fail)
+	inurl:/lk/control/userimage.html	(fail)
+	site:/lk inurl:/control/userimage.html 	(fail) 
+	inurl:/200/control/userimage.html	(Search Success)
+o	Google Search : intext:"Hikvision" inurl:"login.asp"
+	Load few search result pages
+	Google search Hikvision camera default password
+	Some of them worked
+	Lecturer instructed not to do that since its illegal
+o	Google Search : intitle:”EvoCam” inurl:”webcam.html”
+o	Google Search : intitle:"hp laserjet" inurl:info_configuration.htm
+	intitle:"hp" inurl:info_configuration.htm		(fail)
+	intitle:"hpcam" inurl:configuration.htm		(fail)
+	intitle:"hp camera" inurl:configuration.htm	(fail)
+
+Search process interrupted by search engine, saying
+o	About this page
+
+Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?
+
+IP address: 112.134.167.231
+Time: 2015-07-04T02:59:38Z
+URL: https://www.google.com/search?q=intitle:%22hp+photosmart%22+inurl:info_configuration.htm&bav=on.2,or.&cad=b&biw=1366&bih=657&ech=1&psi=tkqXVdalC8SxuATGm4JQ.1435978783036.3&ei=tkqXVdalC8SxuATGm4JQ&emsg=NCSR&noj=1
+
+o	Reboot the router and refresh the IP address to continue with the work
+
+•	Search from File Containing juicy info
+o	Google Search : "google confidential" filetype:pdf
+o	Google Search : ext:pem intext:BEGIN CERTIFICATE
+	Try to decrypt content by searching ‘Google online decrypt tools’ (Fail)
+  MIICWjCCAcMCAgGlMA0GCSqGSIb3DQEBBAUAMHUxCzAJBgNVBAYTAlVTMRgwFgYDVQQKEw9HVEUg
+Q29ycG9yYXRpb24xJzAlBgNVBAsTHkdURSBDeWJlclRydXN0IFNvbHV0aW9ucywgSW5jLjEjMCEG
+A1UEAxMaR1RFIEN5YmVyVHJ1c3QgR2xvYmFsIFJvb3QwHhcNOTgwODEzMDAyOTAwWhcNMTgwODEz
+MjM1OTAwWjB1MQswCQYDVQQGEwJVUzEYMBYGA1UEChMPR1RFIENvcnBvcmF0aW9uMScwJQYDVQQL
+Ex5HVEUgQ3liZXJUcnVzdCBTb2x1dGlvbnMsIEluYy4xIzAhBgNVBAMTGkdURSBDeWJlclRydXN0
+IEdsb2JhbCBSb290MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVD6C28FCc6HrHiM3dFw4u
+sJTQGz0O9pTAipTHBsiQl8i4ZBp6fmw8U+E3KHNgf7KXUwefU/ltWJTSr41tiGeA5u2ylc9yMcql
+HHK6XALnZELn+aks1joNrI1CqiQBOeacPwGFVw1Yh0X404Wqk2kmhXBIgD8SFcd5tB8FLztimQID
+AQABMA0GCSqGSIb3DQEBBAUAA4GBAG3rGwnpXtlR22ciYaQqPEh346B8pt5zohQDhT37qw4wxYMW
+M4ETCJ57NE7fQMh017l93PR2VX2bY1QY6fDq81yx2YtCHrnAlU66+tXifPVoYb+O7AWXX1uw16OF
+NMQkpw0PlZPvy5TYnh+dXIVtx6quTx8itc2VrbqnzPmrC3p/
+
+•	Google Search intitle:"Index Of" intext:"iCloud Photos" OR intext:"My Photo Stream" OR intext:"Camera Roll" 
+o	intitle:"200" AND "Index Of" intext:"iCloud Photos" OR intext:"My Photo Stream" OR intext:"Camera Roll"
+
+•	Search From Pages containing login portals
+o	Google Search: inurl:logon.html "CSCOE"
+o	Google Search: intitle:"Comrex ACCESS Rack"
+
+•	Search from Files Containing  Passwords
+o	Google Search: filetype:xls "username | password"
+	site:lk filetype:xls "username | password"	(Search Success)
+
+Logged modified- 4/7/2015
+
+
+
+
+
+
+
+
+
